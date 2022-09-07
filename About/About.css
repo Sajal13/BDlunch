@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: Century Gothic;
+}
+
+body {
+    font-family: Arial;
+    color: white;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwsHCA0HBwoNCAcHCwoHBwcICg8ICQcKFREWIhURExMYHCggGBoxGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NDisZFRkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAKBABAAEDAwMEAQUAAAAAAAAAAAExQXERIVECYYFCkcHRUhIiobHw/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAAAAAAAAAAACgWAAAkJ+QAAEAAAAAAAAAAAAAAAAAAAABQC3kXTa1ewILpj3g0x7wCTWcizG80rzBpj3gE+hdMU7J/rAgqAAAAAAAAAAAAAAAAAAAAAsLbykLbyCKiz8gdVZyi9VZyfUAc4hF5xCAgAAAAAAAAAAAAAAAAAAACoA1EY94XTa1eYZhfT5A0nt7wsxPavMMzfJN8g11ROs0rzCaT2pzB1VnKfUA1pWlIvCaY94OcR8IAgAAAAAAAAAAAAAAAAAAAAoEZX01uRGPddP22ryCTm5N97rMYrzBMYrzAHVWd7p5tDXVG80rzCaYpF4BOd7R8J5a0rSkXwmmPcERUAAAAAAAAAAAAAAAAAAAABYX0+UjK+mtwJvknTfJObk33uB1VnJt/EL1Vne6ebQBziPhF53tHwnkEFQAAAAAAAAAAAAAAAAAABUAaiJ4XSf00vxLML6fILPTP4zXiSemfxmvEs/ZN8g11dM6z+2a8Sfpn8ZpFpTqrOU+oBrSd9rRaeyaTwc4j4QBAAAAAAAAAAAAAAAAAAAAABYW1bp4XTalwPJr3NOxpPH9gdU7zvc8kxOs7XNOwHO9oRdO1k07AgqAAAAAAAAAAAAAAAAAAAAApYLAAATfISAfQAIAAAAAAAAAAAAAAAAAAAAAAqACoAsoAKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//Z");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 10px;
+  
+  }
+  
+  .left {
+    left: 0;    
+    background-repeat: no-repeat;
+  }
+  
+  .right {
+    right: 0;  
+    background-repeat: no-repeat;
+  }
+  
+  p{
+    font-size: medium;
+    color: #48C9B0 ;
+    padding-left: 30px;
+  }
+  h2{
+    color: #5499C7;
+    padding-left: 25px;
+  }
+  
+  .col-lg-6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+  }
+
+  h1{
+    color: cadetblue;
+    padding-right: 55px;
+  }
+  
+  .col-lg-6 img {
+    width: 200px; 
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  .column1 {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
